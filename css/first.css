@@ -1,12 +1,28 @@
 *
 {
 	margin: 0;
-	padding: 0;
+    padding: 0;
+    /*드래그 방지*/
+    -ms-user-select: none; 
+    -moz-user-select: -moz-none; 
+    -webkit-user-select: none; 
+    -khtml-user-select: none; 
+    user-select: none;
+
+    font-family: 'Maplestory Light.TTF';
 }
 
-html, body { width: 100%; height:100%; background: linear-gradient(to right, rgb(0, 157, 67), rgb(28, 35, 141));}
+html, body 
+{ 
+    width: 100%; 
+    height:100%; 
+    background: linear-gradient(to right, rgb(0, 157, 67), rgb(28, 35, 141));
+}
 
-ul, li { list-style: none; }
+ul, li 
+{ 
+    list-style: none; 
+}
 
 .question-box
 {
