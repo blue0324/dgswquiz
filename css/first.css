@@ -1,0 +1,53 @@
+*
+{
+	margin: 0;
+	padding: 0;
+}
+
+html, body { width: 100%; height:100%; background: linear-gradient(to right, rgb(0, 157, 67), rgb(28, 35, 141));}
+
+ul, li { list-style: none; }
+
+.question-box
+{
+    position: absolute;
+    left: 50vw;
+    top: 50vh;
+    transform: translate(-50%, -50%);
+
+    
+	font-family: "210 굴림 050";
+    color: white;
+}
+
+.question-box fieldset
+{
+    width: 90vw;
+    height: 90vh;
+    border: 1px solid white;
+}
+
+.question-box legend
+{
+    
+}
+
+.question-box p
+{
+    position: relative;
+    text-align: center;
+    top: 40%;
+    transform: translateY(-50%);
+}
+
+
+#question-num
+{
+    font-size: 40pt;
+
+}
+
+#question
+{
+    font-size: 16pt;
+}
